@@ -10,8 +10,8 @@ cask "odin" do
   # Pinned rather than :latest: silent releases never become GitHub's latest,
   # so /releases/latest can lag the newest signed build. Odin updates itself
   # after install, so a pin that trails a release costs nothing.
-  version "1.1.5"
-  sha256 "0bb8664756226954f0e7b3505f4b956faaa725cddb5783da60a84caa90ce70e0"
+  version "1.1.7"
+  sha256 "1a5a00fbe55d3deceab305cf67290c688ce88356bf22f57d9d19aa343c64a8c0"
 
   url "https://github.com/danlinenberg/odin/releases/download/v#{version}/Odin-arm64.dmg"
   name "Odin"
